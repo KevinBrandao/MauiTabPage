@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiTabPage.MenuPrincipal"
+             Title="Doenças Cardíacas">
+
+    <ContentPage Title="Prevenir D.C " IconImageSource="previnir.png">
+        <StackLayout Padding="10" VerticalOptions="Center" Spacing="30">
+            <Label Text="🫀 Como prevenir doenças cardíacas: Algumas atitudes simples podem fazer toda diferença:❤️"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+            <Label Text="1. Alimente-se bem: prefira frutas, legumes, grãos integrais e evite alimentos gordurosos ou com muito sal.&#10;
+&#10;2. Pratique atividades físicas regularmente, como caminhar, pedalar ou dançar — ao menos 30 minutos por dia.&#10;
+&#10;3. Evite o cigarro e o consumo excessivo de álcool, que aumentam o risco de problemas no coração.&#10;
+&#10;4. Mantenha o peso saudável, controlando a obesidade, que é um fator de risco importante.&#10;
+&#10;5. Cuide da saúde emocional, pois o estresse e a ansiedade também afetam o coração.&#10;
+&#10;6. Monitore a pressão arterial, o colesterol e o açúcar no sangue, fazendo exames periódicos."
+       FontSize="16"
+       HorizontalTextAlignment="Start"
+       TextColor="Black"
+       BackgroundColor="Gainsboro"
+       Padding="10"/>
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Contato" IconImageSource="midiasocial.png"
+    BackgroundColor="Gainsboro">
+
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="25">
+
+                <Label Text="Entre em Contato"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalTextAlignment="Center" />
+
+                <Label Text="📧 E-mail: saudedocoracao@email.com"
+                   FontSize="18"
+                   TextColor="Black" />
+
+                <Label Text="💼 LinkedIn: linkedin.com/in/saudedocoracao"
+                   FontSize="18"
+                   TextColor="Black" />
+
+                <Label Text="📘 Facebook: facebook.com/saudedocoracao"
+                   FontSize="18"
+                   TextColor="Black" />
+
+                <Label Text="📸 Instagram: @saudedocoracao"
+                   FontSize="18"
+                   TextColor="Black" />
+
+                <Label Text="📞 Telefone: (11) 99999-9999"
+                   FontSize="18"
+                   TextColor="Black" />
+
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage>
+
+
+    <ContentPage Title="Desenvolvido Por" BackgroundColor="Black" IconImageSource="feitopor.png">
+        <StackLayout Padding="20"
+             VerticalOptions="Center"
+             HorizontalOptions="Center"
+             Spacing="50"
+             BackgroundColor="Black">
+
+            <Label Text="Kevin de Almeida Brandão"
+           FontSize="28"
+           FontAttributes="Bold"
+           HorizontalTextAlignment="Center"
+           HorizontalOptions="Center"
+           TextColor="Silver" />
+
+            <Label Text="Desenvolvido para o trabalho: Programação de Dispositivos Móveis II
+Faculdade Fatec-Franca"
+           FontSize="16"
+           HorizontalTextAlignment="Center"
+           HorizontalOptions="Center"
+           TextColor="Silver" />
+
+            <Image Source="android.jpg"
+           WidthRequest="100"
+           HeightRequest="100"
+           HorizontalOptions="Center"
+           Margin="0,20,0,0"/>
+        </StackLayout>
+
+
+    </ContentPage>
+
+
+</TabbedPage>
